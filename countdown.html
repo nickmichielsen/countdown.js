@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+}
+</style>
+    
+    <script src="countdown.js" type="application/javascript"></script>
+    <link href="countdown.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <p>Coming Soon: Framework</p><br><br>
+<p id="demo"></p>
+
+<p id="demo2"></p>
+</body>
+    
+        <script>
+        var countdown = new countdown();
+        countdown.init(); 
+            
+        var countdown2 = new countdown  ();
+        countdown2.init('.countdown2', {countdownto: new Date("July 23, 2017 23:59:59")});
+            
+            
+            
+            
+//        var bounce = new Bounce();
+//        bounce.init();
+//        
+//        var  bounce2 = new Bounce();
+//        bounce2.init('.bounce2', {gravity: 5, autoplay: 'false'});
+    </script>
+    
+</html>
